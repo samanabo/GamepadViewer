@@ -1,0 +1,44 @@
+.controller.ds4 {
+    background: black;
+    color:black;
+    height: 500px;
+    width: 500px;
+}
+
+.controller.ds4.disconnected {
+    background: red;
+}
+
+.controller.ds4 .triggers {
+    opacity: 1;
+}
+
+.controller.ds4 .trigger {
+    background: white;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+}
+
+.controller.ds4 .trigger.pressed {
+    background: blue;
+}
+
+.controller.ds4 .trigger.left:before {content: "L2";}
+.controller.ds4 .trigger.right:before {content: "R2";}
+
+.controller.ds4 .bumper {
+    background: white;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+}
+
+.controller.ds4 .bumper.pressed {
+    background: blue;
+}
+
+.controller.ds4 .bumper.left:before {content: "L1";}
+.controller.ds4 .bumper.right:before {content: "R1";}
